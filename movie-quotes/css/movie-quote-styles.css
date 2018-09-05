@@ -1,0 +1,26 @@
+body {
+	font: 13px/1.5 arial, helvetica, sans-serif;
+	color: LightSeaGreen;
+}
+article {
+	width: 500px;
+}
+.pquote {
+		float: right;
+		width: 200px;
+		background: url(/examples/images/openquote.gif) top left no-repeat;
+		color: SeaGreen;
+		font-size: 26px;
+		line-height: 0.9;
+		font-style: italic;
+		font-weight: bold;
+		padding: 13px;
+		margin: 0 13px 13px 0;
+}
+blockquote {
+		margin: 0;
+}
+.pquote p:first-letter {
+	font-size: 39px;
+	font-weight: bold;
+}
