@@ -1,0 +1,58 @@
+body {
+	color:lavenderblush;
+	font-family: helvetica;
+	background-color: maroon;
+	font-size:12px;
+	background-image: url(https://image.ibb.co/gLQyYc/30825615_1887196567980589_1222719313_o.jpg);
+	
+}
+ h1#main_header {
+	color: LavenderBlush;
+	font-weight: bold; /*normal (is medium font), thin, 100, 200, 300, 400 (default weight), 700*/
+	font-size: 16pt; /* 16px (default), %, em (priginally the width of the letter m in a character set, now relative to the size of an h1, 2em is double the size of an h1; relative to size of the unit/element itself) Useful when changing margins and padding. Also unit called 2rem (default to relative body font size)*/
+	letter-spacing: .1em;
+	text-transform: uppercase; /* lowercase, capitalize */
+	text-align: center;
+
+}
+
+p {
+	line-height: 2; /*default is 1.3*/
+	text-align: center;
+	/*text-decoration: underline; strikethrough, (overline, linethrough,) none (if you want to remove an underline or something; like for links, etc.)*/
+	font-family: 'Merriweather', serif;
+	color: LavenderBlush;
+
+}
+
+p.Label {
+
+}
+
+p#line1 {
+	font-weight: bold;
+
+}
+
+p#line2 {
+	font-style: oblique;
+
+}
+
+p#line3 {
+	letter-spacing: .1em;
+
+}
+
+p#line4 {
+	text-transform: lowercase;
+
+}
+
+
+
+div.generic p a {
+	color: rgb(0,255,0,.5); /*0.5 means/is applied to opacity*/
+	text-decoration: none; 
+
+}
