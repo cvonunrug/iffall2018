@@ -1,0 +1,128 @@
+body {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 36px;
+	margin: 50px 30;
+	padding: 20;
+	color: #04451A;
+}
+
+/*#ossobucovideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}*/
+
+#gradient {
+  width: 300px;
+  border: 30px solid;
+  border-image: repeating-linear-gradient(25deg, #FFC4DB, #CDFFF4, #f33 30px) 60;
+  padding: 20px;
+
+}
+
+img {
+	align-content: center;
+	width: 89%;
+}
+
+
+.intro {
+	margin: 30px 25px 0 30px;
+	font-weight: 340;
+}
+
+.section {
+	top: 1;
+	background: #BCF7FF;
+	height: 130px;
+	margin: 35px 0 30px 0;
+	font-weight: 320;
+	line-height: 126px;
+	font-size: 34px;
+	font-weight: bolder;
+	letter-spacing: 4.2px;
+	
+}
+
+
+.ingredienta {
+	margin-left: 20%;
+	float: left;
+	width: 5%;
+	text-align: right;
+	font-weight: 320;
+	padding-bottom: 7px;
+	font-weight: bold;
+
+}
+
+.ingredientrow1 {
+
+	clear: both;
+}
+
+.ingredientb {
+	margin-left: 35px;
+	margin-right: 5%;
+	width: 55%;
+	float: left;
+	text-align: left;
+	font-weight: 320;
+	padding-bottom: 7px;
+}
+
+.ingredientc {
+
+	margin-left: -25px;
+	margin-right: 5%;
+	width: 55%;
+	float: left;
+	text-align: left;
+	font-weight: 320;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+
+.instructiona {
+	margin-left: 10%;
+	float: left;
+	width: 15%;
+	text-align: right;
+	font-weight: 300;
+	padding-bottom: 17px;
+	font-weight: bold;
+}
+
+.instructionb {
+	margin-left: 22px;
+	margin-right: 5%;
+	width: 55%;
+	float: left;
+	text-align: left;
+	font-weight: 300;
+	padding-bottom: 17px;
+}
+
+.citation {
+	margin-left: 35px;
+	margin-right: 15%;
+	width: 50%;
+	float: center;
+	text-align: center;
+	font-weight: 150;
+	font-size: 12px;
+	padding-bottom: 17px;
+}
+
+
+.box:after {
+	content: "";
+	display: table;
+	clear: both;
+}
