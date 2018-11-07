@@ -52,8 +52,8 @@ body.truman {
 	top: 50%;
 	left: 84%;
 	transform: translate(-40%, 20%);
-	font-size: 55px;
-	line-height: 60px;
+	font-size: 35px;
+	line-height:40px;
 
 }
 
@@ -62,9 +62,9 @@ body.truman {
 	top: 35%;
 	left: 84%;
 	transform: translate(-40%, 20%);
-	font-size: 45px;
+	font-size: 35px;
 	width: 240px;
-	line-height: 60px;
+	line-height: 40px;
 
 
 }
@@ -74,9 +74,9 @@ body.truman {
 	top: 50%;
 	left: 84%;
 	transform: translate(-40%, 20%);
-	font-size: 45px;
+	font-size: 35px;
 	width: 250px;
-	line-height: 60px;
+	line-height: 40px;
 
 }
 
