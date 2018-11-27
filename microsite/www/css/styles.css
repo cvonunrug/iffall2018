@@ -1,0 +1,79 @@
+html {
+	height: 100%;
+	overflow:scroll;
+}
+
+
+
+body {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	margin: auto;
+	padding-top: 50px;
+	color: #B0B0B0;
+	height: 100%;
+	overflow-y: scroll;
+	background-image: url("../images/wii-background.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.menu{
+	transform: translate(-5%, 0%);
+}
+
+.logoBox{
+	position:relative;
+}
+
+.logoBox img{
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.topBar {
+	top: 0 ;
+	width:100%;
+	background-color:#D5EAEB;
+	position: fixed;
+	z-index:900;
+}
+
+.topBar a {
+	display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:#D5EAEB;
+    color: white;
+    text-decoration: none;
+
+}
+
+.centered {
+	top: 50%;
+	left: 84%;
+	transform: translate(-240%, 120%);
+	font-size: 35px;
+	line-height:40px;
+
+}
+
+.centered2 {
+
+	position: relative;	
+	padding: 150px;
+}
+
+.centered3 {
+	top: 50%;
+	left: 84%;
+	transform: translate(-40%, 20%);
+	font-size: 35px;
+	width: 250px;
+	line-height: 40px;
+
+}
