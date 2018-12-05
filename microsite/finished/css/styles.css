@@ -1,0 +1,320 @@
+html {
+	height: 100%;
+	overflow:scroll;
+}
+
+
+
+body {
+	text-align: center;
+	font-family: 'Hind', sans-serif;
+	font-size: 24px;
+	line-height: 36px;
+	margin: auto;
+	padding-top: 50px;
+	color: #A0A0A0;
+	height: 100%;
+	overflow-y: scroll;
+	background-image: url("../images/wii-background.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.container {
+
+	display: flex;
+/*	flex-direction: row;
+	flex-wrap: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	position: relative;	
+	padding: 150px;
+*/
+
+}
+.reception {
+	padding-top: 60px;
+}
+
+.items{
+	/*order: 2;
+	flex-grow: 1;
+	flex-basis: */
+	flex: 1;
+	margin: 2em;
+
+}
+
+.items img {
+
+max-width: 100%;
+
+}
+
+.tennismii {
+	padding-top: 300px;
+}
+
+.menu{
+	transform: translate(-5%, 0%);
+}
+
+
+.logoBox{
+	position:relative;
+	text-align: left;
+}
+
+.logoBox img{
+	height: 100px;
+	
+	top: 0px;
+	left: 0px;
+}
+
+.topBar {
+	top: 0 ;
+	width:100%;
+	background-color:#D5EAEB;
+	position: fixed;
+	z-index:900;
+}
+
+.topBar a {
+	display: inline-block;
+    padding-right: 11px;
+    padding-left: 11px;
+    background-color:#D5EAEB;
+    color: white;
+    text-decoration: none;
+
+}
+
+.centered {
+	top: 50%;
+	left: 84%;
+	transform: translate(-240%, 120%);
+	font-size: 35px;
+	line-height:40px;
+
+}
+
+.centered2 {
+
+	position: relative;	
+	padding: 150px;
+}
+
+.centered3 {
+	top: 50%;
+	left: 84%;
+	transform: translate(-40%, 20%);
+	font-size: 35px;
+	width: 250px;
+	line-height: 40px;
+
+}
+
+.wii-menu {
+	
+	position: relative;
+}
+
+.wii-menu-image {
+	max-width: 100%;
+
+}
+
+
+
+#buttons {
+				padding: 4% 7%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				
+				box-sizing: border-box;
+				display: flex;
+				flex-wrap: wrap;
+
+			}
+
+			h1 {
+			 	font-size: 35px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				
+				border:1px #fff;
+				
+				padding: 0px;
+				width: 25%;
+				height: 110px;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+				top: 0;
+				flex: 0 0 auto;
+
+			}
+
+
+a#btn_wii {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 52px;
+				margin: auto;
+				margin-top: 10px;
+				padding-top: 22px;
+				background-color: #E4ECEE;
+				color: #9E9E9E;
+				text-align: center;
+				font-size: 25px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 700;
+				line-height: 25px;
+			}
+
+			a#btn_wii:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2f77c2+1,35a8d6+63,00d5f2+99 */
+				background: #E0F2F1; /* Old browsers */
+				background: -moz-linear-gradient(top, #E0F2F1 12%, #A8CBD6 63%, #829BA3 99%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #E0F2F1 12%, #A8CBD6 63%, #829BA3 99%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #E0F2F1 12%, #A8CBD6 63%, #829BA3 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='0DD3FF', endColorstr='#077',GradientType=0 ); /* IE6-9 */
+				color:#E6EDEF;
+			}
+
+a#btn_remote {
+				display: block;
+				width: 125px;
+				height: 50px;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 20px;
+				text-decoration: none;
+				color: #9E9E9E;
+				text-align: center;
+				font-size: 34px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 500;
+				line-height: 50px;
+				background-image: url("https://i5.walmartimages.com/asr/86726d81-125d-4b2b-a945-d5b39a0f9c6b_1.53977304d69bf0c4dfc07ea62f40492d.jpeg");
+				background-size: 100px;
+				background-position: center;
+				background-color: #fff;
+				border: 2px solid #E4ECEE;
+				padding: 16px;
+				background-repeat: no-repeat;
+			}
+
+a#btn_menu {
+				display: block;
+				width: 125px;
+				height: 50px;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 20px;
+				text-decoration: none;
+				color: #7A7C7C;
+				text-align: center;
+				font-size: 34px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 500;
+				line-height: 50px;
+				background-image: url("http://www.nintendoworldreport.com/media/35388/4/2.png");
+				background-size: 200px;
+				background-position: center;
+				background-color: #fff;
+				border: 2px solid #E4ECEE;
+				padding: 16px;
+				background-repeat: no-repeat;
+			}
+
+ a#btn_demographic {
+				display: block;
+				width: 130px;
+				height: 50px;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 20px;
+				text-decoration: none;
+				color: #808080;
+				text-align: center;
+				font-size: 24px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 800;
+				line-height: 50px;
+				background-image: url("https://daks2k3a4ib2z.cloudfront.net/589a26f03f88e87c0ec8f7ae/589a27763f88e87c0ec8f85a_miya-head.png");
+				background-size: 100px;
+				background-position: center;
+				background-color: #fff;
+				border: 2px solid #E4ECEE;
+				padding: 16px;
+				background-repeat: no-repeat;
+			}
+
+a#btn_launch {
+				display: block;
+				width: 125px;
+				height: 50px;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 20px;
+				text-decoration: none;
+				color: #9E9E9E;
+				text-align: center;
+				font-size: 34px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 500;
+				line-height: 50px;
+				background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/07/13/11/iwata.jpg?w968h681");
+				background-size: 150px;
+				background-position: center;
+				background-color: #fff;
+				border: 2px solid #E4ECEE;
+				padding: 16px;
+				background-repeat: no-repeat;
+			}
+
+a#btn_reception {
+				display: block;
+				width: 125px;
+				height: 50px;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 20px;
+				text-decoration: none;
+				color: #9E9E9E;
+				text-align: center;
+				font-size: 30px;
+				text-decoration: none;
+				font-family: 'Hind', sans-serif;
+				font-weight: 500;
+				line-height: 50px;
+				background-image: url("https://img1.spiiky.com/events/B/59379_0_e59109885f2e4481a5d3357b6ecef0b0.jpg.ashx?format=jpg&quality=80&scale=both&mode=crop&maxwidth=735&maxheight=427&crop=(24,0,688,387)&bgcolor=F6F6F6");
+				background-size: 200px;
+				background-position: center;
+				background-color: #fff;
+				border: 2px solid #E4ECEE;
+				padding: 16px;
+				background-repeat: no-repeat;
+			}
+
+main{
+
+	padding: 40px;
+	margin-right: 20px;
+}
+
+			
