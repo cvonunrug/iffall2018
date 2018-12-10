@@ -1,0 +1,20 @@
+
+body {
+
+	
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 12pt;
+	color: white;
+	background-color: #022943;
+
+	margin:auto;
+	margin-top: 36px;
+
+	outline-color: white;
+	border-color: white;
+	
+}
+a:hover {
+	opacity: .9;
+
+}
